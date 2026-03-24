@@ -118,3 +118,5 @@ Use engram for persistent local memory:
 ## Notes
 
 EngramLite is intentionally small. If you need semantic retrieval, multi-user sync, encryption, or remote serving, use a larger memory stack. If you need fast local recall with minimal moving parts, this is the point of this repo.
+
+This is mainly just a proof-of-concept extracting the applicable portions DeepSeek's research into a standalone module anyone can try out today rather than waiting for the big model providers to implement the research directly into the hidden layers. While this tool can be used on its own, it will be a lot more powerful when used in conjunction with other tools, this repo only focuses on the data storage and retrieval aspect of a persistent memory system.
